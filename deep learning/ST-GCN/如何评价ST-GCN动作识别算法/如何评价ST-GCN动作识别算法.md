@@ -9,7 +9,7 @@
 ## OpenPose 预处理
 &emsp;&emsp;OpenPose 是一个标注人体的关节（颈部，肩膀，肘部等），连接成骨骼，进而估计人体姿态的算法。作为视频的预处理工具，我们只需要关注 OpenPose 的输出就可以了。
 
-![视频中的骨骼标注](image\如何评价ST-GCN动作识别算法\视频中的骨骼标注.html)
+![视频中的骨骼标注]([image\如何评价ST-GCN动作识别算法\视频中的骨骼标注.html](https://github.com/herochen7372/Sign-Language-job-record/blob/main/deep%20learning/ST-GCN/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7ST-GCN%E5%8A%A8%E4%BD%9C%E8%AF%86%E5%88%AB%E7%AE%97%E6%B3%95/image/%E8%A7%86%E9%A2%91%E4%B8%AD%E7%9A%84%E9%AA%A8%E9%AA%BC%E6%A0%87%E6%B3%A8.html))
 
 &emsp;&emsp;总的来说，视频的骨骼标注结果维数比较高。在一个视频中，可能有很多帧（Frame）。每个帧中，可能存在很多人（Man）。每个人又有很多关节（Joint）。每一个关节又有不同特征（位置、置信度）。
 
