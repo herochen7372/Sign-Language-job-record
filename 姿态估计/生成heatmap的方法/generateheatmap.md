@@ -38,11 +38,11 @@ print(target)
 
 高斯核大小为(15,15)的结果：
 
-![原图](image\1.原图.html)
+![原图](image/1.原图.html)
 
 原图
 
-![高斯模糊后的heatmap](image\1.高斯模糊后的heatmap.html)
+![高斯模糊后的heatmap](image/1.高斯模糊后的heatmap.html)
 
 高斯模糊后的heatmap
 
@@ -89,10 +89,10 @@ print(target)
 ```
 将 tmp_size改为 tmp_size=7，此时高斯核大小为(15,15),由size = 2 * tmp_size + 1 公式计算高斯核大小结果为：
 
-![原图](image\2.原图.html)
+![原图](image/2.原图.html)
 
 原图
 
-![原图](image\2.经过高斯模糊后的heatmap.html)
+![原图](image/2.经过高斯模糊后的heatmap.html)
 
 经过高斯模糊后的heatmap（与方法1的结果相同）
